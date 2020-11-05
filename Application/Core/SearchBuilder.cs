@@ -9,7 +9,7 @@ namespace Application.Core
     {
         Dictionary<string, string> winnersByProvider = new Dictionary<string, string>();
         List<ResultsByWord> resultsByWords = new List<ResultsByWord>();
-        public string providerWinner;
+        string providerWinner;
 
         public void AddResultByWord(string word, string searchEngine, long numberOfResults)
         {
